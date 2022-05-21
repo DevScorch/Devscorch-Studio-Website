@@ -1,0 +1,21 @@
+.nav-link {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.academy-button {
+    border: 2px solid rgb(144, 249, 240);
+}
+
+.academy-button:hover {
+    background-size: 4px 50px;
+}

@@ -1,12 +1,238 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+#extend("base"):
+  #export("content"):
+    <div class="container-fluid">
+        <div class="nav-container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              #extend("nav"):
+              #endextend
+            </div>
+          </div>
+      </div>
+      <div class="intro-container">
+        <div class="row">
+          <div class="col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
+          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <div class="card intro-card">
+              <div class="card-body card-body-2">
+                <h6 class="intro-h6">CREATIVE APPLICATIONS, OPTIMIZED CODE</h6>
+              <h1 class="intro-h1">We are Software!</h1>
+              <button class="academy-button-index" > <a class="nav-link text-white" href="">Discover Devscorch</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+          
+          </div>
+          <div class="col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
+        </div>
+      </div>
+      <div class="container album-container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card">
+              <div class="card-body album-card">
+              <img class="card-image" src="../images/send.png">
+                <h4 class="card-h3">Exploring Concepts</h4>
+                <div class="line-1"></div>
+                <p class="card-p">As a software company, we always explore new software solutions and new concepts based on new technologies. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body album-card card-border">
+              <img class="card-image" src="../images/neural.png">
+                <h4 class="card-h3">New Ideas</h4>
+                <div class="line-1"></div>
+                <p class="card-p">We always work on new ideas, ideas from our clients and also our own applications like our privacy applications and more.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body album-card">
+              <img class="card-image" src="../images/idea.png">
+                <h4 class="card-h3">Amazing Solutions</h4>
+                <div class="line-1"></div>
+                <p class="card-p">We will always research new and innovative solutions for our clients and future clients.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="container-header">
+                <div class="line-1 service-line"></div>
+                <h1 class="card-h3">Services</h1>
+              </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card">
+              <div class="card-body album-card">
+              <img class="card-image" src="../images/apple.png">
+                <h4 class="card-h3">iOS Development</h4>
+                <div class="line-1"></div>
+                <p class="card-p">We specialise in building iOS applications using Swift, SwiftUI and Objective C. This way we can almost build anything ;)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body album-card ">
+              <img class="card-image" src="../images/platform.png">
+                <h4 class="card-h3">Multiplatform Development</h4>
+                <div class="line-1"></div>
+                <p class="card-p">With the introduction of SwiftUi and Catalyst it is even easier to build multiplatform applications natively.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body album-card green-album-card">
+              <img class="card-image" src="../images/web-black.png">
+                <h4 class="card-h3" style="color: black;">Web Development</h4>
+                <div class="line-black"></div>
+                <p class="card-p" style="color: black;">Our web development team loves to build websites and PWA's. They can make your dream website come to life.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body album-card">
+              <img class="card-image" src="../images/api.png">
+                <h4 class="card-h3">API Design</h4>
+                <div class="line-1"></div>
+                <p class="card-p">Designing a Backend or API for scalable applicaties makes our hearts run faster. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body album-card">
+              <img class="card-image" src="../images/prototyping.png">
+                <h4 class="card-h3">Prototyping</h4>
+                <div class="line-1"></div>
+                <p class="card-p">We like to build prototypes and proof of concepts of our and your ideas.  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body album-card">
+              <img class="card-image" src="../images/design.png">
+                <h4 class="card-h3">Design and Wireframing</h4>
+                <div class="line-1"></div>
+                <p class="card-p">Our designers design away in applications like Figma and Sketch. They actually are the ones who visualize your idea or your concept.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="works-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="line-1 service-line"></div>
+              <h1 class="card-h3">Portfolio</h1>
+              <h6 class="intro-h6 intro-h6-x">STUFF WE DO!</h6>
 
-  <title>#(title)</title>
-</head>
+            </div>
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="main_box">
+                <div class="carosel-img img1">
+                  <p>gfg 1</p>
+                </div>
+                <div class="carosel-img img2"> 
+                  <p>gfg 2</p>
+                </div>
+                <div class="carosel-img img3">   
+                  <p>gfg 3</p>
+                </div>
+                <div class="carosel-img img4">    
+                  <p>gfg 4</p>
+                </div>
+                <div class="carosel-img img1">
+                  <p>gfg 1</p>
+                </div>
+                <div class="carosel-img img1">
+                  <p>gfg 1</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="clients-container services-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="line-1 service-line"></div>
+              <h1 class="card-h3">Happy Clients</h1>
+              <h6 class="intro-h6 intro-h6-x">CLIENTS SO HAPPY, THEY SHOUT IT OUT!</h6>
 
-<body>
-  <h1>#(title)</h1>
-</body>
-</html>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="works-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="line-1 service-line"></div>
+              <h1 class="card-h3">Devscorch Products</h1>
+              <h6 class="intro-h6 intro-h6-x">OUR OWN STUFF </h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="card company-cards" >
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title card-title-blue">DEVSCORCH ACADEMY</h5>
+                      <p class="card-text">Devscorch Academy is our 4th iteration of the Devscorch Learning platform. Here you can learn iOS development and get training and support from real Swift developers. </p>
+                        <button class="academy-button-index" > <a class="nav-link text-white" href="">Coming later in 2022</a></button>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="card company-cards" >
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title card-title-blue">PODSCORCH</h5>
+                      <p class="card-text">Podscorch is a new AaaS (Ads as a Service) system for podcast creators. The creator can upload, manage and distribute their podcasts through Podscorch and make money with it. </p>
+                        <button class="academy-button-index" > <a class="nav-link text-white" href="">Coming later in 2023</a></button>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="card company-cards" >
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title card-title-blue">TEACHONAUT</h5>
+                      <p class="card-text">Teachonaut is a new LMSaaS in development by Devscorch. It is a new way to start your own learning platform and sell your content to your users using our API with a custom frontend.  </p>
+                        <button class="academy-button-index" > <a class="nav-link text-white" href="">Coming later in 2023</a></button>
+
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+  #endexport
+#endextend
+
