@@ -8,9 +8,17 @@
     <!-- Bootstrap CSS -->
 
     <link href="../frameworks/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link href="../css/nav.css" rel="stylesheet">
     <link href="../css/base.css" rel="stylesheet"> 
     <link href="../css/index.css" rel="stylesheet">
+    <link href="../css/animation.css" rel="stylesheet">
+    <link href="../css/social.css" rel="stylesheet">
+    <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/about.css" rel="stylesheet">
+
+
 
     <title>#(title)</title>
   </head>
@@ -19,9 +27,13 @@
         
 
     <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="../frameworks/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../javascript/typewriter-effect.js"></script>
+    <script src="../javascript/animation.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

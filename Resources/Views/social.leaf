@@ -1,0 +1,28 @@
+    <div class="social-list services-container">
+        <div class="row social-row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="card">
+                    <div class="card-body social-card style="height:1000px;background-color:transperent;font-size:36px">
+                        <a class="social-button" href="https://facebook.com/devscorch"><img class="social-icon" src="../images/facebook.png"></a>
+                        <a class="social-button" href="https://youtube.com/devscorch"><img class="social-icon" src="../images/youtube.png"></a>
+                        <a class="social-button" href="https://linkedin.com/devscorch"><img class="social-icon" src="../images/linkedin.png"></a>
+                        <a class="social-button" href="https://twitter.com/devscorch"><img class="social-icon" src="../images/twitter.png"></a>
+                    
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="idea-container">
+                    <h1 style="color: white; text-align: center;">Have a project in mind?</h1>
+                    <a class="nav-link text-white academy-button contact-button" href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            #extend("footer"):
+            #endextend
+        </div>
+    </div>

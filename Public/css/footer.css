@@ -1,0 +1,64 @@
+.footer {
+    min-height: 600px;
+    background-color: black;
+    margin-top: 150px;
+}
+
+.info-card {
+    margin-top: 100px;
+}
+
+.info-1 {
+    list-style-image: url('../images/telephone.png');
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.info-2 {
+    list-style-image: url('../images/mail.png');
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.info-3 {
+    list-style-image: url('../images/pin.png');
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.info-4 {
+    list-style-image: url('../images/handshake-2.png');
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.services {
+    color: white;
+    margin-top: 20px;
+    font-size: 17px;
+    list-style: none;
+}
+
+.bottom-footer {
+    margin-top: 150px;
+    border-top: 2px solid rgb(54, 54, 54);
+}
+
+.copyright {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+span {
+    color: white;
+}
+
+small {
+    color: white;
+}

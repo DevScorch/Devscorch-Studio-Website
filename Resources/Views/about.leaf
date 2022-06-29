@@ -1,0 +1,115 @@
+#extend("base"):
+  #export("content"):
+    <div class="container-fluid">
+        <div class="top-container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="header-image">
+                        #extend("nav"):
+                        #endextend
+
+                        <div class="header-text">
+                            <h1 class="text-white header-h1">About us.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" container middle-container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card">
+              <div class="card-body album-card transparent-card">
+              <img class="card-image" src="../images/apple.png">
+                <h4 class="card-h3">Transparent</h4>
+                <div class="line-1"></div>
+                <p class="card-p">We specialise in building iOS applications using Swift, SwiftUI and Objective C. This way we can almost build anything ;)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body album-card transparent-card">
+              <img class="card-image" src="../images/platform.png">
+                <h4 class="card-h3">Professional</h4>
+                <div class="line-1"></div>
+                <p class="card-p">With the introduction of SwiftUi and Catalyst it is even easier to build multiplatform applications natively.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body album-card  transparent-card">
+              <img class="card-image" src="../images/web-black.png">
+                <h4 class="card-h3">Quick Response</h4>
+                <div class="line-1"></div>
+                <p class="card-p" >Our web development team loves to build websites and PWA's. They can make your dream website come to life.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body album-card transparent-card">
+              <img class="card-image" src="../images/api.png">
+                <h4 class="card-h3">Efficient</h4>
+                <div class="line-1"></div>
+                <p class="card-p">Designing a Backend or API for scalable applicaties makes our hearts run faster. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body album-card transparent-card">
+              <img class="card-image" src="../images/prototyping.png">
+                <h4 class="card-h3">Quality</h4>
+                <div class="line-1"></div>
+                <p class="card-p">We like to build prototypes and proof of concepts of our and your ideas.  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body album-card transparent-card">
+              <img class="card-image" src="../images/design.png">
+                <h4 class="card-h3">Little bit crazy</h4>
+                <div class="line-1"></div>
+                <p class="card-p">Our designers design away in applications like Figma and Sketch. They actually are the ones who visualize your idea or your concept.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="stack-container services-container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="stack">
+                        <h1 class="text-white">Here are some of our great skills!</h1>
+                        <div class="progress">
+                            <p class="text-white skill-p">iOS, iPadOS</p>
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="0"></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="0"></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="0"></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="0"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div>
+                </div>
+            </div>
+        </div>
+       
+        #extend("social"):
+        #endextend
+        
+    </div>
+  #endexport
+#endextend

@@ -10,21 +10,22 @@
           </div>
       </div>
       <div class="intro-container">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
-          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
             <div class="card intro-card">
               <div class="card-body card-body-2">
                 <h6 class="intro-h6">CREATIVE APPLICATIONS, OPTIMIZED CODE</h6>
-              <h1 class="intro-h1">We are Software!</h1>
+              <h1 class="intro-h1">We are</h1>
+              <h1 class="intro-h1" style="color: rgb(144, 249, 240); "><span class="type-color" data-text="Software, Swift., Studio."></span></h1>
               <button class="academy-button-index" > <a class="nav-link text-white" href="">Discover Devscorch</a></button>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
-          
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            
           </div>
-          <div class="col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
+        </div>
         </div>
       </div>
       <div class="container album-container">
@@ -62,8 +63,8 @@
           </div>
         </div>
       </div>
-      <div class="services-container">
-        <div class="container">
+      <div class="services-container" >
+        <div class="container ">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
               <div class="container-header">
@@ -135,15 +136,15 @@
             </div>
           </div>
         </div>
+        
       </div>
-      <div class="works-container">
+      <div class="works-container" style="margin-top: 50px;">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
               <div class="line-1 service-line"></div>
               <h1 class="card-h3">Portfolio</h1>
-              <h6 class="intro-h6 intro-h6-x">STUFF WE DO!</h6>
-
+              <h6 class="intro-h6 intro-h6-x">STUFF WE DID!</h6>
             </div>
           </div>
         </div>
@@ -153,13 +154,13 @@
                 <div class="carosel-img img1">
                   <p>gfg 1</p>
                 </div>
-                <div class="carosel-img img2"> 
+                <div class="carosel-img img1"> 
                   <p>gfg 2</p>
                 </div>
-                <div class="carosel-img img3">   
+                <div class="carosel-img img1">   
                   <p>gfg 3</p>
                 </div>
-                <div class="carosel-img img4">    
+                <div class="carosel-img img1">    
                   <p>gfg 4</p>
                 </div>
                 <div class="carosel-img img1">
@@ -177,62 +178,122 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
               <div class="line-1 service-line"></div>
-              <h1 class="card-h3">Happy Clients</h1>
-              <h6 class="intro-h6 intro-h6-x">CLIENTS SO HAPPY, THEY SHOUT IT OUT!</h6>
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="works-container">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <div class="line-1 service-line"></div>
               <h1 class="card-h3">Devscorch Products</h1>
               <h6 class="intro-h6 intro-h6-x">OUR OWN STUFF </h6>
             </div>
           </div>
-          <div class="row">
+          <div class="row" style="margin-top: 20px;">
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <div class="card company-cards" >
+                <div class="card" >
                     <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body company-cards">
                       <h5 class="card-title card-title-blue">DEVSCORCH ACADEMY</h5>
                       <p class="card-text">Devscorch Academy is our 4th iteration of the Devscorch Learning platform. Here you can learn iOS development and get training and support from real Swift developers. </p>
                         <button class="academy-button-index" > <a class="nav-link text-white" href="">Coming later in 2022</a></button>
-
                     </div>
                   </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <div class="card company-cards" >
+                <div class="card " >
                     <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title card-title-blue">PODSCORCH</h5>
-                      <p class="card-text">Podscorch is a new AaaS (Ads as a Service) system for podcast creators. The creator can upload, manage and distribute their podcasts through Podscorch and make money with it. </p>
+                    <div class="card-body company-cards">
+                      <h5 class="card-title card-title-blue">Infini iOS Content Blocker</h5>
+                      <p class="card-text">Infini is our new Content Blocker for iOS and iPadOS which is completely written in SwiftUI. It blocks ads, trackers, beacons, and many many more. Check it out on the Appstore and find out!</p>
                         <button class="academy-button-index" > <a class="nav-link text-white" href="">Coming later in 2023</a></button>
-
                     </div>
                   </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <div class="card company-cards" >
+                <div class="card " >
                     <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body company-cards">
                       <h5 class="card-title card-title-blue">TEACHONAUT</h5>
                       <p class="card-text">Teachonaut is a new LMSaaS in development by Devscorch. It is a new way to start your own learning platform and sell your content to your users using our API with a custom frontend.  </p>
                         <button class="academy-button-index" > <a class="nav-link text-white" href="">Coming later in 2023</a></button>
-
                     </div>
-                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="works-container client-container">
+          <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="line-1 service-line"></div>
+              <h1 class="card-h3">Happy Clients</h1>
+              <h6 class="intro-h6 intro-h6-x">CLIENTS SO HAPPY, THEY SHOUT IT OUT!</h6>
+            </div>
+          </div>
+          </div>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 row-top">
+          <div class="col">
+            <div class="card">
+              <div class="card-body company-cards">
+              <img class="card-image-company" src="../images/quote.png">
+                <div class="stars">
+                   <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+                <p class="card-p-center">Professional, fresh and with a Twist. That is how i would describe my experience with Devscorch. Johan was responsible for a proof of concept for flowing water in ARKit for one of our AR world ideas. The results where really impressive and we will surely hire him again.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body company-cards">
+              <img class="card-image-company" src="../images/quote.png">
+              <div class="stars">
+                   <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+                <p class="card-p-center">We needed a quick and working system for our Lambda function where the system could scan the amount of downloaded bits by clients. Devon helped us upgrading our code and made it perform much better. Definitely a professional.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  ">
+              <div class="card-body company-cards">
+              <img class="card-image-company" src="../images/quote.png">
+              <div class="stars">
+                   <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+                <p class="card-p-center">We found Devscorch through their Youtube channel and Coding courses. They code exactly how they teach. The product was clean, fast and amazingly optimized for all our Apple hardware. Truly a happy and fruitfull experience to say the least!</p>
+              </div>
+            </div>
+          </div>
+           <div class="col">
+            <div class="card  ">
+              <div class="card-body company-cards">
+              <img class="card-image-company" src="../images/quote.png">
+              <div class="stars">
+                   <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+                <p class="card-p-center">We found Devscorch through their Youtube channel and Coding courses. They code exactly how they teach. The product was clean, fast and amazingly optimized for all our Apple hardware. Truly a happy and fruitfull experience to say the least!</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      
+        #extend("social"):
+        #endextend
     </div>
-
+  </div>
   #endexport
 #endextend
 

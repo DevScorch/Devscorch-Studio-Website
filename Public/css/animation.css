@@ -1,0 +1,18 @@
+canvas {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 15px;
+    color: #eee;
+    font-size: 13px;
+}
+
+.ancontainer {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,55 @@
+<div class="footer">
+    <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3">
+            <div class="info-card">
+            
+            </div>
+        </div>
+         <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3">
+            <div class="info-card">
+                <h5 class="text-white">CONTACT US</h5>
+                <ul>
+                    <li class="info-1">+31 6 27456193</li>
+                    <li class="info-2"> johan@devscorch.com</li>
+                    <li class="info-3"> Netherlands, Heel</li>
+                    <li class="info-4">Monday to Friday</li>
+                    
+                </ul>
+            </div>
+        </div>
+         <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3">
+            <div class="info-card">
+                <h5 class="text-white">SERVICES</h5>
+                <ul>
+                    <li class="services">iOS Development</li>
+                    <li class="services">Web Development</li>
+                    <li class="services">API Design</li>
+                    <li class="services">App Store</li>
+                    
+                </ul>
+            </div>
+        </div>
+         <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3">
+            <div class="info-card">
+                <h5 class="text-white">ABOUT US</h5>
+                <ul>
+                    <li class="services">About</li>
+                    <li class="services">Portfolio</li>
+                    <li class="services">Github</li>
+                    <li class="services">Contact</li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="bottom-footer">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="copyright">
+                    <p>Copyright 2022 All rights reserved</p>
+                    <small>Devscorch is build using Vapor, Leaf, Bootstrap and PostgreSQL</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

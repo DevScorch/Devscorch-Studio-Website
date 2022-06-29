@@ -10,7 +10,6 @@ import Leaf
 import Vapor
 
 struct IndexController {
-    
     // MARK: Render Index page
     
     func renderIndexPage(_ req: Request) async throws -> View {
