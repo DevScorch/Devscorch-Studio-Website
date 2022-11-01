@@ -9,28 +9,28 @@
 }
 
 .info-1 {
-    list-style-image: url('../images/telephone.png');
+    list-style-image: url('');
     color: white;
     margin-top: 15px;
     font-size: 17px;
 }
 
 .info-2 {
-    list-style-image: url('../images/mail.png');
+    list-style-image: url('');
     color: white;
     margin-top: 15px;
     font-size: 17px;
 }
 
 .info-3 {
-    list-style-image: url('../images/pin.png');
+    list-style-image: url('');
     color: white;
     margin-top: 15px;
     font-size: 17px;
 }
 
 .info-4 {
-    list-style-image: url('../images/handshake-2.png');
+    list-style-image: url('');
     color: white;
     margin-top: 15px;
     font-size: 17px;

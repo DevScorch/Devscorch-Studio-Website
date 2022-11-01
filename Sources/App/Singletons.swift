@@ -16,4 +16,5 @@ enum Titles: String, Content {
     case portfolioPage = "portfolio"
     case testimonialPage = "testimonials"
     case contactController = "contact"
+    case services = "services"
 }

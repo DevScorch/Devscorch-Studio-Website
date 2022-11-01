@@ -1,0 +1,22 @@
+.ios-container {
+    margin-top: 300px;
+}
+
+.frameworks-container {
+    margin-top: 50px;
+}
+
+.services-1 {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 350px;
+}
+
+.servicess-h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.services-p {
+    color: white;
+}

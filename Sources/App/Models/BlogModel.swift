@@ -20,6 +20,8 @@ class BlogModel: Model {
         static var date: FieldKey {"date"}
         static var content: FieldKey {"content"}
         static var author: FieldKey {"author"}
+        static var createdAt: FieldKey {"createdAt"}
+        static var updatedAt: FieldKey {"updatedAt"}
     }
     
     @ID()
@@ -46,9 +48,15 @@ class BlogModel: Model {
     @Field(key: FieldKeys.author)
     var author: String
     
+    @Timestamp(key: FieldKeys.createdAt, on: .create)
+    var createdAt: Date?
+    
+    @Timestamp(key: FieldKeys.updatedAt, on: .update)
+    var updatedAt: Date?
+    
     required init() {}
     
-    init(id: UUID? = nil, title: String, slug: String, image: String, excerpt: String, date: Date, content: String, author: String) {
+    init(id: UUID? = nil, title: String, slug: String, image: String, excerpt: String, date: Date, content: String, author: String, createdAt: Date?, updatedAt: Date?) {
         self.id = id
         self.title = title
         self.slug = slug
@@ -57,6 +65,8 @@ class BlogModel: Model {
         self.date = date
         self.content = content
         self.author = author
+        self.createdAt = createdAt
+        self.updatedAt = updatedAt
         
     }
     

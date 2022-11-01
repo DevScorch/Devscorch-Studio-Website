@@ -9,30 +9,32 @@
             <div class="collapse navbar-collapse">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end ">
         <li class="nav-item">
-          <a class="nav-link text-white #if(title == "Devscorch Studio | Home"): active #endif" href="index"><p>HOME</p></a>
+          <a class="nav-link text-white #if(title == "Devscorch Studio | Home"): active #endif" href="/"><p>HOME</p></a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white #if(title == "Devscorch Studio | About"): active #endif" href="about">ABOUT</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item">
+          <a class="nav-link text-white #if(title == "Devscorch Studio | Services"): active #endif" href="services">
             SERVICES
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">IOS Development</a></li>
             <li><a class="dropdown-item" href="#">Web Development</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">API development and design</a></li>
-          </ul>
+            <li><a class="dropdown-item" href="#">API development and design</a></li> 
+          </ul>-->
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white">PORTFOLIO</a>
+          <a class="nav-link text-white" href="https://github.com/devscorch">PORTFOLIO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white">BLOG</a>
+          <a class="nav-link text-white #if(title == "Devscorch Studio | Blog"): active #endif" href="blog">
+            BLOG
+          </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white academy-button " href="#">ACADEMY</a>
+            <a class="nav-link text-white academy-button " href="https://devscorch.com">ACADEMY</a>
         </li>
       </ul>
       </div>

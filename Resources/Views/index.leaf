@@ -15,18 +15,34 @@
           <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
             <div class="card intro-card">
               <div class="card-body card-body-2">
-                <h6 class="intro-h6">CREATIVE APPLICATIONS, OPTIMIZED CODE</h6>
+                <h6 class="intro-h6">CREATIVE APPLICATIONS, CREATIVE PEOPLE</h6>
               <h1 class="intro-h1">We are</h1>
-              <h1 class="intro-h1" style="color: rgb(144, 249, 240); "><span class="type-color" data-text="Software, Swift., Studio."></span></h1>
-              <button class="academy-button-index" > <a class="nav-link text-white" href="">Discover Devscorch</a></button>
+              <h1 class="intro-h1" style="color: rgb(144, 249, 240); "><span class="type-color" data-text="Software, Swift, Studio, Devscorch"></span></h1>
+              <button class="academy-button-index" > <a class="nav-link text-white" href="/about">Discover Devscorch</a></button>
               </div>
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            
-          </div>
+              <div class="fire">
+                  <div class="fire-left">
+                    <div class="main-fire"></div>
+                    <div class="particle-fire"></div>
+                  </div>
+                  <div class="fire-center">
+                    <div class="main-fire"></div>
+                    <div class="particle-fire"></div>
+                  </div>
+                  <div class="fire-right">
+                    <div class="main-fire"></div>
+                    <div class="particle-fire"></div>
+                  </div>
+                  <div class="fire-bottom">
+                    <div class="main-fire"></div>
+                  </div>
+                </div>   
+            </div>
         </div>
-        </div>
+      </div>
       </div>
       <div class="container album-container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -72,7 +88,6 @@
                 <h1 class="card-h3">Services</h1>
               </div>
             </div>
-        </div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
             <div class="card">
@@ -136,7 +151,8 @@
             </div>
           </div>
         </div>
-        
+                </div>
+
       </div>
       <div class="works-container" style="margin-top: 50px;">
         <div class="container">
@@ -152,22 +168,20 @@
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
               <div class="main_box">
                 <div class="carosel-img img1">
-                  <p>gfg 1</p>
+                  <p>Infini Adblocker</p>
                 </div>
-                <div class="carosel-img img1"> 
-                  <p>gfg 2</p>
+                <div class="carosel-img img2"> 
+                  <p>HeartBreaks Podcast Advertisment API</p>
                 </div>
-                <div class="carosel-img img1">   
-                  <p>gfg 3</p>
+                <div class="carosel-img img3">   
+                  <p>Playz Social Gaming network</p>
                 </div>
-                <div class="carosel-img img1">    
-                  <p>gfg 4</p>
+                <div class="carosel-img img4">    
+                  <p>AdsAway Content Blocker</p>
                 </div>
-                <div class="carosel-img img1">
-                  <p>gfg 1</p>
-                </div>
-                <div class="carosel-img img1">
-                  <p>gfg 1</p>
+                
+                <div class="carosel-img img5">
+                  <p>EasyLMS Learn management system</p>
                 </div>
               </div>
             </div>
@@ -182,20 +196,20 @@
               <h6 class="intro-h6 intro-h6-x">OUR OWN STUFF </h6>
             </div>
           </div>
-          <div class="row" style="margin-top: 20px;">
+          <div class="row" style="margin-top: 70px;">
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <div class="card" >
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card product-card" >
+                    <img src="../images/academy.png" class="card-img-top" alt="...">
                     <div class="card-body company-cards">
                       <h5 class="card-title card-title-blue">DEVSCORCH ACADEMY</h5>
                       <p class="card-text">Devscorch Academy is our 4th iteration of the Devscorch Learning platform. Here you can learn iOS development and get training and support from real Swift developers. </p>
-                        <button class="academy-button-index" > <a class="nav-link text-white" href="">Coming later in 2022</a></button>
+                        <button class="academy-button-index" > <a class="nav-link text-white" href="https://devscorch.com">Check it out</a></button>
                     </div>
                   </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <div class="card " >
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card product-card" >
+                    <img src="../images/infini.png" class="card-img-top" alt="...">
                     <div class="card-body company-cards">
                       <h5 class="card-title card-title-blue">Infini iOS Content Blocker</h5>
                       <p class="card-text">Infini is our new Content Blocker for iOS and iPadOS which is completely written in SwiftUI. It blocks ads, trackers, beacons, and many many more. Check it out on the Appstore and find out!</p>
@@ -204,12 +218,12 @@
                   </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <div class="card " >
+                <div class="card product-card" >
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body company-cards">
                       <h5 class="card-title card-title-blue">TEACHONAUT</h5>
                       <p class="card-text">Teachonaut is a new LMSaaS in development by Devscorch. It is a new way to start your own learning platform and sell your content to your users using our API with a custom frontend.  </p>
-                        <button class="academy-button-index" > <a class="nav-link text-white" href="">Coming later in 2023</a></button>
+                        <button class="academy-button-index" > <a class="nav-link text-white" href="">Coming later in 2024</a></button>
                     </div>
                 </div>
             </div>
@@ -284,7 +298,7 @@
                   <span class="fa fa-star checked"></span>
                   <span class="fa fa-star checked"></span>
                 </div>
-                <p class="card-p-center">We found Devscorch through their Youtube channel and Coding courses. They code exactly how they teach. The product was clean, fast and amazingly optimized for all our Apple hardware. Truly a happy and fruitfull experience to say the least!</p>
+                <p class="card-p-center">We ordered and Devscorch delivered. We were in need of a quick fix for our Machine Learning model for on device text moderation in our message application. It worked even better than expected and we are almost ready to launch our product.</p>
               </div>
             </div>
           </div>

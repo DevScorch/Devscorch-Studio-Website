@@ -7,6 +7,15 @@
     margin-left: 30px;
 }
 
+.social-button-2 {
+    border: rgb(144, 249, 240) solid 2px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .social-icon {
     width: 40px;
     height: 40px;
@@ -14,6 +23,25 @@
     display: block;
     margin-top: 8px;
     margin-left: 8px;
+}
+
+.social-icon-2 {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: block;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.social-card-2 {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    padding-top: 50px;
+    margin-top: 20px;
 }
 
 .social-card {

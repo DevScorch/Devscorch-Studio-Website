@@ -14,6 +14,7 @@ public func configure(_ app: Application) throws {
     app.databases.use(.postgres(hostname: Environment.get("DATABASE_HOST") ?? "localhost", username: Environment.get("DATABASE_USER") ?? "studio", password: Environment.get("DATABASE_PASSWORD") ?? "studio", database: Environment.get("DATABASE_NAME") ?? "studio"), as: .psql)
     
     
+    
 
     // register routes
     try routes(app)

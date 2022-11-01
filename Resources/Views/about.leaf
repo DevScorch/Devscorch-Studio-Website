@@ -20,20 +20,20 @@
           <div class="col">
             <div class="card">
               <div class="card-body album-card transparent-card">
-              <img class="card-image" src="../images/apple.png">
+              <img class="card-image" src="../images/like.png">
                 <h4 class="card-h3">Transparent</h4>
                 <div class="line-1"></div>
-                <p class="card-p">We specialise in building iOS applications using Swift, SwiftUI and Objective C. This way we can almost build anything ;)</p>
+                <p class="card-p">Honesty is something we find really important. That's why we are really transparent about the costs, the time and the time we need</p>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card  ">
               <div class="card-body album-card transparent-card">
-              <img class="card-image" src="../images/platform.png">
+              <img class="card-image" src="../images/professional.png">
                 <h4 class="card-h3">Professional</h4>
                 <div class="line-1"></div>
-                <p class="card-p">With the introduction of SwiftUi and Catalyst it is even easier to build multiplatform applications natively.</p>
+                <p class="card-p">We provide a professional, fast and Agile environment where time and project management is key!</p>
                 
               </div>
             </div>
@@ -41,70 +41,146 @@
           <div class="col">
             <div class="card  ">
               <div class="card-body album-card  transparent-card">
-              <img class="card-image" src="../images/web-black.png">
+              <img class="card-image" src="../images/fast.png">
                 <h4 class="card-h3">Quick Response</h4>
                 <div class="line-1"></div>
-                <p class="card-p" >Our web development team loves to build websites and PWA's. They can make your dream website come to life.</p>
+                <p class="card-p" >Responding to inqueries within 2 hours and sending an offer within 4 hours. That is what makes us different from others. </p>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card  ">
               <div class="card-body album-card transparent-card">
-              <img class="card-image" src="../images/api.png">
+              <img class="card-image" src="../images/time-management.png">
                 <h4 class="card-h3">Efficient</h4>
                 <div class="line-1"></div>
-                <p class="card-p">Designing a Backend or API for scalable applicaties makes our hearts run faster. </p>
+                <p class="card-p">Efficiency is key at Devscorch Studio. We don't do hour long meetings. We meet, we code, we check and we deliver. </p>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card  ">
               <div class="card-body album-card transparent-card">
-              <img class="card-image" src="../images/prototyping.png">
+              <img class="card-image" src="../images/shield.png">
                 <h4 class="card-h3">Quality</h4>
                 <div class="line-1"></div>
-                <p class="card-p">We like to build prototypes and proof of concepts of our and your ideas.  </p>
+                <p class="card-p">One thing we like to provide is Quality. Quality for the right price is key and makes everyone happy!</p>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card  ">
               <div class="card-body album-card transparent-card">
-              <img class="card-image" src="../images/design.png">
+              <img class="card-image" src="../images/crazy.png">
                 <h4 class="card-h3">Little bit crazy</h4>
                 <div class="line-1"></div>
-                <p class="card-p">Our designers design away in applications like Figma and Sketch. They actually are the ones who visualize your idea or your concept.</p>
+                <p class="card-p">Yes we are a little bit crazy. We like to fool around ones in a while and we like to look for weird but creative solutions.</p>
               </div>
             </div>
           </div>
         </div>
         </div>
-        <div class="stack-container services-container">
+        <div class="stack-container services-container ">
+          <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div class="stack">
                         <h1 class="text-white">Here are some of our great skills!</h1>
+                          <h6 class="intro-h6">STUFF WE USE</h6>
+
                         <div class="progress">
-                            <p class="text-white skill-p">iOS, iPadOS</p>
+                          <p style="color: white; font-weight: bold; margin-right: 20px;">Swift</p>
                             <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="0"></div>
+                            <script>
+                              $(".progress-bar").animate({
+                                      width: "70%",
+                              }, 2500);
+                            </script>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="0"></div>
+                            <p style="color: white; font-weight: bold; margin-right: 7px;">SwiftUI</p>
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="0"></div>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="0"></div>
+                            <p style="color: white; font-weight: bold; margin-right: 20px;">UIKit</p>
+                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="0"></div>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="0"></div>
+                            <p style="color: white; font-weight: bold; margin-right: 16px;">React</p>
+                            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="0">Web</div>
                         </div>
+                        <div class="progress">
+                            <p style="color: white; font-weight: bold; margin-right: 15px;">Vapor</p>
+                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="0">MacOS</div>
+                        </div>
+                        <div class="progress">
+                            <p style="color: white; font-weight: bold; margin-right: 18px;">Node</p>
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="0">Native</div>
+                        </div>
+                      </div>
 
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                <div>
+                
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="team-container middle-container" style="margin-bottom: 100px;">
+          <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <h1 class="card-h3">Meet the team</h1>
+              <h6 class="intro-h6 intro-h6-x">The team that makes Devscorch Studio</h6>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 20px;">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="card" >
+                    <div class="card-body company-cards" style="text-align: center;">
+                    <img src="../images/johan.jpg" class="card-img-top user-image" alt="...">
+
+                      <h5 class="card-title card-title-blue">Johan t'Sas</h5>
+                      <p class="card-text">Owner | iOS developer | Backend developer</p>
+                      <div class="card-body social-card-2">
+                        <a class="social-button-2" href="https://facebook.com/johantsas"><img class="social-icon-2" src="../images/facebook.png"></a>
+                        <a class="social-button-2" href="https://youtube.com/devscorch"><img class="social-icon-2" src="../images/youtube.png"></a>
+                        <a class="social-button-2" href="https://linkedin.com/johantsas"><img class="social-icon-2" src="../images/linkedin.png"></a>
+                        <a class="social-button-2" href="https://twitter.com/johantsas"><img class="social-icon-2" src="../images/twitter.png"></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="card " >
+                    <div class="card-body company-cards" style="text-align: center;">
+                    <img src="../images/gabe.jpg" class="card-img-top user-image" alt="...">
+                      <h5 class="card-title card-title-blue">Gabriel Covitz</h5>
+                      <p class="card-text">iOS developer | Frontend developer</p>
+                        <div class="card-body social-card-2">
+                        <a class="social-button-2" href="https://youtube.com/devscorch"><img class="social-icon-2" src="../images/youtube.png"></a>
+                        <a class="social-button-2" href="https://www.linkedin.com/in/gabriel-covitz-1683951a0/"><img class="social-icon-2" src="../images/linkedin.png"></a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="card " >
+                    <div class="card-body company-cards" style="text-align: center;">
+                    <img src="../images/gabe.jpg" class="card-img-top user-image" alt="...">
+                      <h5 class="card-title card-title-blue">Davon</h5>
+                      <p class="card-text">Python Developer | PWA developer</p>
+                        <div class="card-body social-card-2">
+                        <a class="social-button-2" href="https://youtube.com/devscorch"><img class="social-icon-2" src="../images/youtube.png"></a>
+                        <a class="social-button-2" href="https://www.linkedin.com/in/azura4k/"><img class="social-icon-2" src="../images/linkedin.png"></a>
+                      </div>
+                    </div>
                 </div>
             </div>
+          </div>
+        </div>
+          </div>
         </div>
        
         #extend("social"):

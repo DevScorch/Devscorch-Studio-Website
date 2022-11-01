@@ -28,3 +28,8 @@ struct PortfolioContext: Content {
     let title: String
     let logo: String
 }
+
+struct ServicesContext: Content {
+    let title: String
+    let logo: String
+}

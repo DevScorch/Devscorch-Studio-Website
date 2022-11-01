@@ -61,19 +61,23 @@
 }
 
 .img1 {
-    background-image: url(../images/coming-soon.jpg);
+    background-image: url(../images/infini.png);
 }
 
 .img2 {
-    background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20211216100751/GFG2.png);
+    background-image: url(../images/hb.png);
 }
 
 .img3 {
-    background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20211216100753/GFG3.jpg);
+    background-image: url(../images/playz.jpg);
 }
 
 .img4 {
-    background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20211216100754/GFG4.jpg);
+    background-image: url(../images/away.jpg);
+}
+
+.img5 {
+    background-image: url(../images/lms.jpg);
 }
 
 .main_box:hover .carosel-img {
@@ -93,6 +97,10 @@
 
 .company-cards {
     background-color: rgb(11, 12, 16);
+    border: 0px;
+}
+
+.product-card {
     border: 1px solid rgb(54, 54, 54);
 }
 

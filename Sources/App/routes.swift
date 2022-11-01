@@ -5,8 +5,10 @@ func routes(_ app: Application) throws {
    
     let indexController = IndexController()
     let aboutController = AboutController()
+    let servicesController = ServicesController()
     
-    try app.routes.get(use: indexController.renderIndexPage)
-    try app.routes.get("about", use: aboutController.renderAboutPage)
+    app.routes.get(use: indexController.renderIndexPage)
+    app.routes.get("about", use: aboutController.renderAboutPage)
+    app.routes.get("services", use: servicesController.renderServicesController)
 
 }
